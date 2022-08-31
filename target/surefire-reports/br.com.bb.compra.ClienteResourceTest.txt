@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: br.com.bb.compra.ClienteResourceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 7.022 s <<< FAILURE! - in br.com.bb.compra.ClienteResourceTest
+br.com.bb.compra.ClienteResourceTest.testHelloEndpoint  Time elapsed: 0.012 s  <<< ERROR!
+java.lang.RuntimeException: java.lang.RuntimeException: Failed to start quarkus
+Caused by: java.lang.RuntimeException: Failed to start quarkus
+Caused by: java.lang.RuntimeException: Unable to start HTTP server
+Caused by: java.util.concurrent.ExecutionException: io.quarkus.runtime.QuarkusBindException
+Caused by: io.quarkus.runtime.QuarkusBindException
+
